@@ -89,11 +89,14 @@ table {
     background-color:ivory;
     padding: 3px;
     border: double 3px maroon;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
 }
 th, td {
     border: 1px solid black;
     padding: 9px;
     text-align: center;;
+    text-decoration: midnightblue;
 }
 a:hover {
     color:darkred;
