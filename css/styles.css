@@ -1,0 +1,92 @@
+body {
+    background-color: black;
+    border: 5px solid darkred;
+    margin: 0;
+    padding: 25px;
+}
+
+h1 {
+    color:firebrick;
+    border: 2px solid navy;
+    background-color:lightslategray;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:oblique;
+    text-align: center;
+}
+
+nav {
+    background-color:steelblue;
+    padding: 13px;
+    text-align:center;
+}
+nav a {
+    color:darkorange;
+    text-decoration: none;
+    margin: 0 12px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+}
+nav a:hover {
+    color:yellow;
+    background-color: purple;
+}
+
+.top-movies {
+    color:darkblue;
+    border: 2px solid maroon;
+    background-color: darkgoldenrod;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    text-align: center;
+}
+
+ .movie-table { 
+    color:darkviolet;
+    border: 2px solid darkgreen;
+    background-color: mintcream;
+    font-family: sans-serif;
+    font-style: oblique;
+    text-align: center;
+ }
+
+p {
+    color:snow;
+    font-family: monospace;
+    font-size: medium;
+} 
+ol {
+    font-size: medium;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 15px 40px;
+    background-color: cornflowerblue;
+    border: 3px solid darkred;
+    border-radius: 10px;
+    list-style-type: upper-roman;
+}
+
+li {
+    padding: 6px;
+    color:mintcream;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+li:hover {
+    background-color: gold;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 15px auto;
+    background-color:ivory;
+    padding: 3px;
+    border: double 3px maroon;
+}
+th, td {
+    border: 1px solid black;
+    padding: 9px;
+    text-align: center;;
+}
+a:hover {
+    background-color: limegreen;
+}
