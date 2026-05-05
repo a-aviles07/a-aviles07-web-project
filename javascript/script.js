@@ -7,5 +7,5 @@ form.addEventListener("submit", function(event) {
     const movie = document.getElementById("movie").value;
     const character = document.getElementById("character").value;
 
-    message.textContent = `${movie}, nice! "${character}" is a great Marvel Character!`;
+    message.textContent = `${movie}, that's a great movie! "${character}" is a great Marvel Character!`;
 });
