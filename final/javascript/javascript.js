@@ -17,14 +17,14 @@ const products = document.querySelectorAll(".feature-content");
         
         });
     }
-    const contactForm = document.getElementById("contactUsForm");
-    const formMessage = document.getElementById("formMessage");
+    const contactUsForm = document.getElementById("contactUsForm");
+    const messageForm = document.getElementById("messageForm");
 
-    if (contactForm) {
-        contactForm.addEventListener("submit", function(event) {
+    if (contactUsForm) {
+        contactUsForm.addEventListener("submit", function(event) {
             event.preventDefault();
-            formMessage.textContent =
+            messageForm.textContent =
             `Your message has been submitted. Someone from our team will reach out to you as soon as possible.`;
-            contactForm.reset();
+            contactUsForm.reset();
         });
     }
