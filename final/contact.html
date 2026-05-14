@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>GreenTech Solutions | Contact Us</title>
+        <link rel="stylesheet" href="css.style.css">
+    </head>
+    <body>
+        <header>
+            <h1>GreenTech Solutions</h1>
+            <p>Our Contact Info</p>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="products.html">Products</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2>Contact us today!</h2>
+                <p>Contact GreenTech Solutions for all your energy saving and sustainable needs.</p>
+            </section>
+
+            <section>
+                <form id="contactUsForm">
+                    <label for="name">Full Name</label>
+                    <input
+                        type="text"
+                        id="fullName"
+                        name="name"
+                        required>
+                    <label for="phone number">Phone Number</label>
+                    <input
+                        type="tel"
+                        id="phoneNumber"
+                        name="phone"
+                        placeholder="(555) 123-4567"
+                        required>
+                    <label for="email">Email Address</label>
+                    <input
+                        type="email"
+                        id="emailAddress"
+                        name="email"
+                        required>
+                    <label for="address">Physical Address</label>
+                    <input
+                        type="text"
+                        id="address"
+                        name="address"
+                        placeholder="123 Main Street"
+                        required>
+                    <label for="city">City</label>
+                    <input
+                        type="text"
+                        id="city"
+                        name="city"
+                        placeholder="El Paso"
+                        required>
+                    <label for="state">State</label>
+                    <input
+                        type="text"
+                        id="state"
+                        name="state"
+                        placeholder="Texas"
+                        required>
+                    <label for="zipcode">Zip Code</label>
+                    <input
+                        type="text"
+                        id="zipcode"
+                        name="zipcode"
+                        placeholder="79912"
+                        required>    
+                    <label for="message">Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <p id="formMessage"></p>
+            </section>
+        </main>
+        <script src="javascript/javascript.js"></script>
+    </body>
+</html>

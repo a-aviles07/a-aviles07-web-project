@@ -1,0 +1,180 @@
+body {
+    margin:auto;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:beige;
+    color:black;
+}
+header {
+    background-color:seagreen;
+    color:snow;
+    text-align:center;
+    padding: 20px;
+}
+nav {
+    margin-top: 13px;
+}
+nav a {
+    color:antiquewhite;
+    text-decoration: none;
+    margin:0 13px;
+    font-weight: bold;
+}
+nav a:hover {
+    color:springgreen;
+}
+main {
+    padding: 25px;
+}
+.main-info {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.main-info img {
+    width: 350px;
+    max-width:fit-content;
+    border-radius: 8px;
+}
+.button {
+    display:inline-block;
+    background-color: seagreen;
+    color:floralwhite;
+    padding: 15px 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.button:hover {
+    background-color: green;
+}
+.features {
+    display:flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.feature-content {
+    background-color: floralwhite;
+    padding: 15px;
+    flex: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+    transition:ease-in;
+}
+.feature-content:hover {
+    transform:scale(1.05);
+}
+
+@media (max-width: 600px) {
+    .main-content {
+        flex-direction: column;
+        text-align: justify;
+    }
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+}
+.timeline {
+    margin-top: 15px;
+    border-left: 4px seagreen;
+    padding-left: 15px;
+}
+.timeline-content {
+    background-color: snow;
+    margin-bottom: 20px;
+    padding: 17px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgba(0,0,0,0.5);
+}
+.timeline-content h3 {
+    color: seagreen;
+}
+#productSearch {
+    width:auto;
+    max-width:fit-content;
+    padding: 15px;
+    margin: 20px 0;
+    border: 2px solid seagreen;
+    border-radius: 7px;
+    font-size:14px;
+}
+.solarProduct-image {
+    width: 100%;
+    height: 150px;
+    border-radius: 7px;
+    margin-bottom:10px;
+}
+.blog-image {
+    width:auto;
+    height:auto;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+.tip-link {
+    display:inline-block;
+    margin-top: 12px;
+    color: seagreen;
+    font-weight: bold;
+    text-decoration: none;
+}
+.tip-link:hover {
+    color: darkgreen;
+    text-decoration: underline;
+    cursor:pointer;
+}
+table {
+    width: auto;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: blanchedalmond;
+}
+th {
+    background-color:lightgreen;
+    color: white;
+    padding: 15px;
+}
+td {
+    border: 3px solid lightgray;
+    padding: 15px;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: 18px auto;
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-top: 12px;
+    font-weight:bold;
+}
+input,
+textarea {
+    padding: 15px;
+    margin-top: 8px;
+    border: 5px solid lightgray;
+    border-radius: 8px;
+    font-size:medium;
+}
+button {
+    margin-top: 15px;
+    padding: 12px;
+    background-color: seagreen;
+    color: whitesmoke;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: khaki;
+}
+#formMessage {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
