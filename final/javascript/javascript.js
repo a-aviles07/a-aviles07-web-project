@@ -8,16 +8,16 @@ const products = document.querySelectorAll(".feature-content");
             products.forEach(function(product) {
                 const productText = product.textContent.toLowerCase();
                 if(productText.includes(searchText)){
-                    product.computedStyleMap.display = "block";
+                    product.style.display = "block";
                 }
                 else {
-                    product.computedStyleMap.display = "none";
+                    product.style.display = "none";
                 }
             });
         
         });
     }
-    const contactForm = document.getElementById("contactForm");
+    const contactForm = document.getElementById("contactUsForm");
     const formMessage = document.getElementById("formMessage");
 
     if (contactForm) {
